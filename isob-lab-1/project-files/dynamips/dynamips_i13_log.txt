@@ -1,0 +1,52 @@
+Feb 16 13:38:17.582 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 13:38:17.582 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50675.
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 13:38:17.591 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/54719c42-57a8-49ab-8937-f4cdf8f2628e 
+Feb 16 13:38:17.591 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/54719c42-57a8-49ab-8937-f4cdf8f2628e
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Feb 16 13:38:17.591 VM: VM R2 created.
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Feb 16 13:38:17.591 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Feb 16 13:38:17.592 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Feb 16 13:38:17.592 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Feb 16 13:38:17.592 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.592 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Feb 16 13:38:17.592 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-4T 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-1T 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.593 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 48 WIC-1T 
+Feb 16 13:38:17.594 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:38:17.594 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:17.594 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa1da0 
+Feb 16 13:38:17.594 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Feb 16 13:38:17.637 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:38:21.186 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:38:29.840 HYPERVISOR: exec_cmd: nio create_udp udp-94bf35fa-a9e5-4762-bea4-81344a979e48 10004 127.0.0.1 10005 
+Feb 16 13:38:30.061 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-94bf35fa-a9e5-4762-bea4-81344a979e48 
+Feb 16 13:38:30.062 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:35.188 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:38:40.355 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Feb 16 13:38:40.393 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 16 13:38:40.394 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:38:40.395 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Feb 16 13:38:40.395 HYPERVISOR: exec_cmd: vm start R2 
+Feb 16 13:41:54.020 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:41:54.031 HYPERVISOR: exec_cmd: vm stop R2 
+Feb 16 13:41:54.126 VM: VM R2 shutdown.
+Feb 16 13:41:54.127 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 13:41:58.437 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:41:58.437 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 0 
+Feb 16 13:41:58.438 HYPERVISOR: exec_cmd: nio delete udp-94bf35fa-a9e5-4762-bea4-81344a979e48 
+Feb 16 13:41:58.647 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:41:58.647 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 13:41:58.648 HYPERVISOR: exec_cmd: vm delete R2 
+Feb 16 13:41:58.648 VM: VM R2 destroyed.
+Feb 16 13:41:58.649 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 13:41:58.782 HYPERVISOR: Stopped.
+Feb 16 13:41:58.782 GENERAL: reset done.

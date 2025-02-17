@@ -1,0 +1,19 @@
+Feb 16 13:42:14.211 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 13:42:14.211 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54141.
+Feb 16 13:42:14.220 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 13:42:14.220 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 13:42:14.220 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 13:42:14.220 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Feb 16 13:44:49.184 HYPERVISOR: exec_cmd: nio create_udp udp-00610468-8d34-474c-9600-5814187511b1 10005 127.0.0.1 10004 
+Feb 16 13:44:49.195 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-00610468-8d34-474c-9600-5814187511b1 
+Feb 16 13:44:49.204 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-00610468-8d34-474c-9600-5814187511b1 1 
+Feb 16 13:47:01.360 HYPERVISOR: exec_cmd: nio create_udp udp-17ce71a3-c33a-4ce4-aa91-e9d26f37b2fa 10018 127.0.0.1 10019 
+Feb 16 13:47:01.360 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-17ce71a3-c33a-4ce4-aa91-e9d26f37b2fa 
+Feb 16 13:47:01.374 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-17ce71a3-c33a-4ce4-aa91-e9d26f37b2fa 1 
+Feb 16 13:47:06.766 HYPERVISOR: exec_cmd: nio create_udp udp-cda7d55c-7c76-49a5-a07b-29630fbd1d70 10020 127.0.0.1 10021 
+Feb 16 13:47:06.766 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-cda7d55c-7c76-49a5-a07b-29630fbd1d70 
+Feb 16 13:47:06.780 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-cda7d55c-7c76-49a5-a07b-29630fbd1d70 1 
+Feb 16 18:44:43.655 HYPERVISOR: exec_cmd: ethsw delete Switch2 
+Feb 16 18:44:43.726 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 18:44:44.122 HYPERVISOR: Stopped.
+Feb 16 18:44:44.122 GENERAL: reset done.

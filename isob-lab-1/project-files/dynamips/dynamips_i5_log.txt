@@ -1,0 +1,26 @@
+Feb 16 12:55:41.702 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 12:55:41.702 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52365.
+Feb 16 12:55:41.709 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 12:55:41.710 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 12:55:41.710 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 12:55:41.710 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Feb 16 12:56:11.157 HYPERVISOR: exec_cmd: nio create_udp udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 10015 127.0.0.1 10014 
+Feb 16 12:56:11.158 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 
+Feb 16 12:56:11.174 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 1 
+Feb 16 12:56:25.028 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 1 
+Feb 16 12:56:53.926 HYPERVISOR: exec_cmd: nio create_udp udp-98af10f8-1f5f-4408-9645-fb9da875a816 10018 127.0.0.1 10019 
+Feb 16 12:56:53.927 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-98af10f8-1f5f-4408-9645-fb9da875a816 
+Feb 16 12:56:53.937 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-98af10f8-1f5f-4408-9645-fb9da875a816 1 
+Feb 16 12:56:58.647 HYPERVISOR: exec_cmd: nio create_udp udp-10cf2350-ae9a-4b3e-9025-d85cfb0c21c6 10020 127.0.0.1 10021 
+Feb 16 12:56:58.647 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-10cf2350-ae9a-4b3e-9025-d85cfb0c21c6 
+Feb 16 12:56:58.665 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-10cf2350-ae9a-4b3e-9025-d85cfb0c21c6 1 
+Feb 16 13:02:43.872 HYPERVISOR: exec_cmd: ethsw remove_nio Switch2 udp-98af10f8-1f5f-4408-9645-fb9da875a816 
+Feb 16 13:02:43.877 HYPERVISOR: exec_cmd: nio delete udp-98af10f8-1f5f-4408-9645-fb9da875a816 
+Feb 16 13:02:48.559 HYPERVISOR: exec_cmd: ethsw remove_nio Switch2 udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 
+Feb 16 13:02:48.576 HYPERVISOR: exec_cmd: nio delete udp-44d3d556-79d9-4dbd-97b0-9b5de641207a 
+Feb 16 13:02:48.602 HYPERVISOR: exec_cmd: ethsw remove_nio Switch2 udp-10cf2350-ae9a-4b3e-9025-d85cfb0c21c6 
+Feb 16 13:02:48.616 HYPERVISOR: exec_cmd: nio delete udp-10cf2350-ae9a-4b3e-9025-d85cfb0c21c6 
+Feb 16 13:02:48.638 HYPERVISOR: exec_cmd: ethsw delete Switch2 
+Feb 16 13:02:48.639 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 13:02:49.089 HYPERVISOR: Stopped.
+Feb 16 13:02:49.089 GENERAL: reset done.

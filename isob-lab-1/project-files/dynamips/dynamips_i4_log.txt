@@ -1,0 +1,31 @@
+Feb 16 12:51:06.695 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 12:51:06.695 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40251.
+Feb 16 12:51:06.704 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 12:51:06.704 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 12:51:06.704 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 12:51:06.704 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Feb 16 12:51:24.560 HYPERVISOR: exec_cmd: nio create_udp udp-56089451-7f25-48d0-96fc-1be1146eba48 10007 127.0.0.1 10006 
+Feb 16 12:51:24.560 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-56089451-7f25-48d0-96fc-1be1146eba48 
+Feb 16 12:51:24.565 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-56089451-7f25-48d0-96fc-1be1146eba48 1 
+Feb 16 12:51:48.383 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-56089451-7f25-48d0-96fc-1be1146eba48 1 
+Feb 16 12:52:22.160 HYPERVISOR: exec_cmd: nio create_udp udp-3e73595b-b659-4095-b6db-20c619fba22d 10010 127.0.0.1 10011 
+Feb 16 12:52:22.160 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-3e73595b-b659-4095-b6db-20c619fba22d 
+Feb 16 12:52:22.169 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-3e73595b-b659-4095-b6db-20c619fba22d 1 
+Feb 16 12:52:27.904 HYPERVISOR: exec_cmd: nio create_udp udp-431c295e-6ae1-447e-9eac-2307b649902a 10012 127.0.0.1 10013 
+Feb 16 12:52:27.904 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-431c295e-6ae1-447e-9eac-2307b649902a 
+Feb 16 12:52:27.925 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-431c295e-6ae1-447e-9eac-2307b649902a 1 
+Feb 16 12:52:50.723 HYPERVISOR: exec_cmd: nio create_udp udp-4de80074-a67f-4e16-8358-0147d9e01a89 10014 127.0.0.1 10015 
+Feb 16 12:52:50.723 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-4de80074-a67f-4e16-8358-0147d9e01a89 
+Feb 16 12:52:50.727 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-4de80074-a67f-4e16-8358-0147d9e01a89 1 
+Feb 16 12:55:52.298 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-4de80074-a67f-4e16-8358-0147d9e01a89 
+Feb 16 12:55:52.313 HYPERVISOR: exec_cmd: nio delete udp-4de80074-a67f-4e16-8358-0147d9e01a89 
+Feb 16 13:02:43.723 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-431c295e-6ae1-447e-9eac-2307b649902a 
+Feb 16 13:02:43.746 HYPERVISOR: exec_cmd: nio delete udp-431c295e-6ae1-447e-9eac-2307b649902a 
+Feb 16 13:02:43.788 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-56089451-7f25-48d0-96fc-1be1146eba48 
+Feb 16 13:02:43.806 HYPERVISOR: exec_cmd: nio delete udp-56089451-7f25-48d0-96fc-1be1146eba48 
+Feb 16 13:02:43.835 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-3e73595b-b659-4095-b6db-20c619fba22d 
+Feb 16 13:02:43.846 HYPERVISOR: exec_cmd: nio delete udp-3e73595b-b659-4095-b6db-20c619fba22d 
+Feb 16 13:02:43.871 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Feb 16 13:02:43.872 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 13:02:44.333 HYPERVISOR: Stopped.
+Feb 16 13:02:44.333 GENERAL: reset done.

@@ -1,0 +1,65 @@
+Feb 16 13:42:02.827 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 13:42:02.827 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45739.
+Feb 16 13:42:02.836 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 13:42:02.836 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 13:42:02.836 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 13:42:02.836 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/6a672808-aba2-4c92-a958-4e4bf95594b2 
+Feb 16 13:42:02.836 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/6a672808-aba2-4c92-a958-4e4bf95594b2
+Feb 16 13:42:02.836 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Feb 16 13:42:02.837 VM: VM R2 created.
+Feb 16 13:42:02.837 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Feb 16 13:42:02.837 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Feb 16 13:42:02.837 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-4T 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.838 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-1T 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 48 WIC-1T 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa1da0 
+Feb 16 13:42:02.839 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Feb 16 13:42:02.882 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:42:05.207 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:42:06.968 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 13:44:48.960 HYPERVISOR: exec_cmd: nio create_udp udp-70de9d1a-45bf-4495-a5e8-5cd9b8961ce2 10006 127.0.0.1 10007 
+Feb 16 13:44:49.166 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-70de9d1a-45bf-4495-a5e8-5cd9b8961ce2 
+Feb 16 13:44:49.167 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:45:10.635 HYPERVISOR: exec_cmd: nio create_udp udp-8b6f9202-3736-4840-99b1-c4f3d3e76ba5 10012 127.0.0.1 10013 
+Feb 16 13:45:10.636 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 16 udp-8b6f9202-3736-4840-99b1-c4f3d3e76ba5 
+Feb 16 13:45:10.636 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:47:24.819 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Feb 16 13:47:24.833 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 16 13:47:24.834 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 13:47:24.837 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Feb 16 13:47:24.840 HYPERVISOR: exec_cmd: vm start R2 
+Feb 16 16:34:40.084 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 16:34:44.863 HYPERVISOR: exec_cmd: vm set_ios R2 /home/darya/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 16 18:11:38.307 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 18:11:38.344 HYPERVISOR: exec_cmd: vm stop R2 
+Feb 16 18:11:38.454 VM: VM R2 shutdown.
+Feb 16 18:11:38.455 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 18:11:46.885 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Feb 16 18:11:46.886 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 16 18:11:46.886 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 18:11:46.887 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Feb 16 18:11:46.887 HYPERVISOR: exec_cmd: vm start R2 
+Feb 16 18:44:17.305 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 18:44:17.344 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 18:44:24.905 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 18:44:24.943 HYPERVISOR: exec_cmd: vm stop R2 
+Feb 16 18:44:25.056 VM: VM R2 shutdown.
+Feb 16 18:44:25.057 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 18:44:43.753 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 16 18:44:43.754 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 16 18:44:43.755 HYPERVISOR: exec_cmd: vm delete R2 
+Feb 16 18:44:43.755 VM: VM R2 destroyed.
+Feb 16 18:44:43.755 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 18:44:44.177 HYPERVISOR: Stopped.
+Feb 16 18:44:44.177 GENERAL: reset done.

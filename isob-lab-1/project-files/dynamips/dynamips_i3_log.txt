@@ -1,0 +1,10 @@
+Feb 16 12:50:26.499 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 16 12:50:26.499 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 32923.
+Feb 16 12:50:26.508 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 16 12:50:26.508 HYPERVISOR: exec_cmd: hypervisor working_dir /home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips 
+Feb 16 12:50:26.508 GENERAL: working_dir=/home/darya/Documents/ISOB/isob-lab-1/project-files/dynamips
+Feb 16 12:50:26.508 HYPERVISOR: exec_cmd: atmsw create ATMSW1 
+Feb 16 12:50:32.638 HYPERVISOR: exec_cmd: atmsw delete ATMSW1 
+Feb 16 12:50:32.650 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 16 12:50:33.013 HYPERVISOR: Stopped.
+Feb 16 12:50:33.014 GENERAL: reset done.
